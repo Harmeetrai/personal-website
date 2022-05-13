@@ -59,7 +59,7 @@ header {
     font-size: 0.9rem;
 }
 
-/* Media Queries */
+/* Media Queries Medium Device*/
 @media (max-width: 1024px) {
     header {
         height: 68vh;

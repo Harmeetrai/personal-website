@@ -14,9 +14,10 @@ const About = () => {
       <div className="container about__container">
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={ME} alt='me' />
+            <img src={ME} alt='About Image' />
           </div>
         </div>
+        
         <div className='about__content'>
           <div className="about__cards">
 
@@ -38,6 +39,12 @@ const About = () => {
               <small>3+ Years in Experience</small>
             </article>
           </div>
+
+          <p>
+            I am a Data Science student at Simon Fraser University. I am currently working on a project to create a web application that will help people to find the best place to eat in Vancouver.
+          </p>
+
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
